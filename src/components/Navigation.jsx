@@ -1,11 +1,11 @@
 function Navigation() {
   return (
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Games</a>
-      <a href="#">News</a>
-      <a href="#">Contact</a>
+    <nav aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#games">Games</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
     </nav>
   );
 }

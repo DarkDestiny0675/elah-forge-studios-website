@@ -1,0 +1,45 @@
+.game-page {
+  min-height: 100vh;
+  background: #111;
+  color: #fff;
+  padding: 120px 20px;
+  display: flex;
+  justify-content: center;
+}
+.game-container {
+  max-width: 900px;
+  text-align: center;
+}
+.game-container h1 {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.tagline {
+  color: #c9b37e;
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+}
+.alert {
+  display: inline-block;
+  background: #5a3d00;
+  color: #f5d88d;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.game-container p {
+  line-height: 1.8;
+  margin-bottom: 20px;
+  color: #d0d0d0;
+}
+.close-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 14px 30px;
+  background: #c9b37e;
+  color: #111;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 700;
+}
