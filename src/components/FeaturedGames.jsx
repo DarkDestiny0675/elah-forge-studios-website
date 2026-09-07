@@ -28,7 +28,7 @@ const games = [
       "Make your picks, compete with friends, and chase the championship.",
     image: nflPickEmCard,
     imageAlt: "NFL Pick'Em game artwork",
-    route: "/nfl-pickem",
+    route: "https://pickem.elahforgestudios.com/",
     status: "Completed",
   },
 ];
