@@ -3,13 +3,16 @@ import nflPickEmCard from "../assets/nfl-pickem-card.png";
 import "../css/GamePage.css";
 
 const features = [
-  "Weekly NFL game picks",
-  "Game of the Week selections",
-  "Leaderboard and weekly results",
-  "Tiebreaker scoring",
-  "Pick distribution insights",
-  "Commissioner schedule and season controls",
-  "Player registration and approval workflow",
+  "Weekly NFL Submission",
+  "Live Pick Distribution",
+  "Weekly Results Tracking",
+  "Season Leaderboard",
+  "Historical Week Review",
+  "Game of the Week",
+  "Commissioner Management Center",
+  "Simulation & Testing Suite",
+  "Secure League Membership",
+  "Complete Audit History",
 ];
 
 function NFLPickEmPage() {
@@ -33,11 +36,11 @@ function NFLPickEmPage() {
 
       <section className="game-page-content">
         <div className="game-page-container">
-          <h2>Built for a Full NFL Season</h2>
+          <h2>Compete. Predict. Win.</h2>
           <p>
-            NFL Pick'Em is a commissioner-driven competition where players
-            predict weekly winners, follow results, and battle for position on
-            the leaderboard throughout the season.
+            Pick every NFL game, climb the leaderboard, track league trends, and
+            battle friends all season long. Every game counts. Every pick
+            matters. 🏈🏆
           </p>
           <p>
             The game itself is complete. The next step is deploying the React
