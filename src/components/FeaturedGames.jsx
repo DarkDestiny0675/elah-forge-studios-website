@@ -1,35 +1,35 @@
-import { Link } from 'react-router-dom';
-import divineResurrectionCard from '../assets/divine-resurrection-card.png';
-import royalTreasuryCard from '../assets/royal-treasury-card.png';
-import nflPickEmCard from '../assets/nfl-pickem-card.png';
-import './FeaturedGames.css';
+import { Link } from "react-router-dom";
+import divineResurrectionCard from "../assets/divine-resurrection-card.png";
+import royalTreasuryCard from "../assets/royal-treasury-card.png";
+import nflPickEmCard from "../assets/nfl-pickem-card.png";
+import "./FeaturedGames.css";
 
 const games = [
   {
-    title: 'Divine Resurrection',
+    title: "Divine Resurrection",
     description:
-      'You were sent to destroy evil. You were chosen to restore creation.',
+      "You were sent to destroy evil. You were chosen to restore creation.",
     image: divineResurrectionCard,
-    imageAlt: 'Divine Resurrection game artwork',
-    route: '/divine-resurrection',
-    status: 'Pre-Production',
+    imageAlt: "Divine Resurrection game artwork",
+    route: "/divine-resurrection",
+    status: "Pre-Production",
   },
   {
-    title: 'Royal Treasury',
-    description: 'Build wealth. Grow kingdoms. Shape alliances.',
+    title: "Royal Treasury",
+    description: "Build wealth. Grow kingdoms. Shape alliances.",
     image: royalTreasuryCard,
-    imageAlt: 'Royal Treasury game artwork',
-    route: '/royal-treasury',
-    status: 'In Development',
+    imageAlt: "Royal Treasury game artwork",
+    route: "/royal-treasury",
+    status: "Post Development",
   },
   {
     title: "NFL Pick'Em",
     description:
-      'Make your picks, compete with friends, and chase the championship.',
+      "Make your picks, compete with friends, and chase the championship.",
     image: nflPickEmCard,
     imageAlt: "NFL Pick'Em game artwork",
-    route: '/nfl-pickem',
-    status: 'Completed',
+    route: "/nfl-pickem",
+    status: "Completed",
   },
 ];
 
@@ -41,7 +41,7 @@ function FeaturedGames() {
       <div className="games-grid">
         {games.map((game, index) => (
           <Link
-            className={`game-card${index === 2 ? ' game-card-centered' : ''}`}
+            className={`game-card${index === 2 ? " game-card-centered" : ""}`}
             key={game.title}
             to={game.route}
             aria-label={`Learn more about ${game.title}`}
