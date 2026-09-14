@@ -18,11 +18,12 @@ const games = [
   },
   {
     title: "Royal Treasury",
-    description: "Build wealth. Grow kingdoms. Shape alliances.",
+    description:
+      "Build wealth. Grow kingdoms. Shape alliances. Now available to play online.",
     image: royalTreasuryCard,
     imageAlt: "Royal Treasury game artwork",
-    route: "/royal-treasury",
-    status: "Post Development",
+    route: "https://royaltreasury.elahforgestudios.com/",
+    status: "Live",
   },
   {
     title: "NFL Pick'Em",
@@ -59,29 +60,57 @@ function FeaturedGames() {
       <h2>Featured Games</h2>
 
       <div className="games-grid">
-        {games.map((game, index) => (
-          <Link
-            className={`game-card${index === 4 ? " game-card-centered" : ""}`}
-            key={game.title}
-            to={game.route}
-            aria-label={`Learn more about ${game.title}`}
-          >
-            <div className="game-artwork">
-              <img
-                className="game-image"
-                src={game.image}
-                alt={game.imageAlt}
-              />
-              <span className="game-status">{game.status}</span>
-            </div>
+        {games.map((game, index) => {
+          const isExternal = game.route.startsWith("http");
+          const cardClassName = `game-card${
+            index === 4 ? " game-card-centered" : ""
+          }`;
 
-            <div className="game-copy">
-              <h3>{game.title}</h3>
-              <p>{game.description}</p>
-              <span className="game-link-text">Explore Game</span>
-            </div>
-          </Link>
-        ))}
+          const cardContent = (
+            <>
+              <div className="game-artwork">
+                <img
+                  className="game-image"
+                  src={game.image}
+                  alt={game.imageAlt}
+                />
+                <span className="game-status">{game.status}</span>
+              </div>
+
+              <div className="game-copy">
+                <h3>{game.title}</h3>
+                <p>{game.description}</p>
+                <span className="game-link-text">
+                  {isExternal ? "Play Now" : "Explore Game"}
+                </span>
+              </div>
+            </>
+          );
+
+          if (isExternal) {
+            return (
+              <a
+                className={cardClassName}
+                href={game.route}
+                key={game.title}
+                aria-label={`Launch ${game.title}`}
+              >
+                {cardContent}
+              </a>
+            );
+          }
+
+          return (
+            <Link
+              className={cardClassName}
+              key={game.title}
+              to={game.route}
+              aria-label={`Learn more about ${game.title}`}
+            >
+              {cardContent}
+            </Link>
+          );
+        })}
       </div>
     </section>
   );
