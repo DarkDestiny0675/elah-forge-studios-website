@@ -14,7 +14,7 @@
 
 .games-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 30px;
 }
 
@@ -33,9 +33,9 @@
 }
 
 .game-card-centered {
-  grid-column: 1 / -1;
-  width: calc(50% - 15px);
-  justify-self: center;
+  grid-column: auto;
+  width: auto;
+  justify-self: stretch;
 }
 
 .game-card:hover {
@@ -73,11 +73,13 @@
   position: absolute;
   top: 14px;
   right: 14px;
+  max-width: calc(100% - 28px);
   padding: 7px 11px;
   color: #f5e4b7;
   font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.08em;
+  text-align: center;
   text-transform: uppercase;
   background: rgba(12, 12, 12, 0.82);
   border: 1px solid rgba(201, 179, 126, 0.7);
@@ -92,11 +94,12 @@
 .game-card h3 {
   margin: 0 0 12px;
   color: #ffffff;
-  font-size: 2rem;
+  font-size: clamp(1.55rem, 3vw, 2rem);
+  line-height: 1.15;
 }
 
 .game-card p {
-  min-height: 52px;
+  min-height: 78px;
   margin: 0;
   color: #b0b0b0;
   line-height: 1.6;
