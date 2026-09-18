@@ -32,7 +32,7 @@ const games = [
     image: nflPickEmCard,
     imageAlt: "NFL Pick'Em game artwork",
     //route: "/nfl-pickem",
-    route: "http://pickem.elahforgestudios.com/",
+    route: "https://pickem.elahforgestudios.com/",
     status: "Live",
   },
   {
