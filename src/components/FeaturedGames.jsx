@@ -31,8 +31,9 @@ const games = [
       "Weekly football picks and competition, currently undergoing reliability updates.",
     image: nflPickEmCard,
     imageAlt: "NFL Pick'Em game artwork",
-    route: "/nfl-pickem",
-    status: "Under Maintenance",
+    //route: "/nfl-pickem",
+    route: "http://pickem.elahforgestudios.com/",
+    status: "Live",
   },
   {
     title: "Poly-Anna Returns",
@@ -46,7 +47,7 @@ const games = [
   {
     title: "DC: Crisis of Infinite Heroes",
     description:
-      "A competitive 2 to 5-player engine-building board game with a strategy-shifting comic-book event system.",
+      "A competitive 2 to 4-player engine-building car game with a strategy-shifting comic-book event system.",
     image: dcCrisisCard,
     imageAlt: "DC: Crisis of Infinite Heroes game artwork",
     route: "/dc-crisis-of-infinite-heroes",

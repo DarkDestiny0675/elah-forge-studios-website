@@ -12,7 +12,7 @@ function RoyalTreasuryPage() {
         <div className="game-page-overlay" />
 
         <div className="game-page-hero-content">
-          <span className="game-page-status">Post Development</span>
+          <span className="game-page-status">Live</span>
 
           <h1>Royal Treasury</h1>
 

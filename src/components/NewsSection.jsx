@@ -35,7 +35,7 @@ const updates = [
     date: "In Development",
     title: "DC: Crisis Infinite Heroes",
     description:
-      "A competitive engine-building board game for 2 to 5 players, inspired by the accessible resource development and progression of Splendor.  A dynamic comic-book event system continually changes the rules, opportunities, and risks on the table, forcing every player to adapt strategy as the crisis unfolds.",
+      "A competitive engine-building ccard game for 2 to 4 players, inspired by the accessible resource development and progression of Splendor.  A dynamic comic-book event system continually changes the rules, opportunities, and risks on the table, forcing every player to adapt strategy as the crisis unfolds.",
   },
 ];
 
