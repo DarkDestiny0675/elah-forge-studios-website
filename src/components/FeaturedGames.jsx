@@ -36,12 +36,12 @@ const games = [
     status: "Live",
   },
   {
-    title: "Poly-Anna Returns",
+    title: "Polly-Anna Returns",
     description:
       "Race home through safe zones, strategic blocks, and a modern twist on classic board-game competition.",
     image: polyAnnaReturnsCard,
-    imageAlt: "Poly-Anna Returns game artwork",
-    route: "/poly-anna-returns",
+    imageAlt: "Polly-Anna Returns game artwork",
+    route: "/polly-anna-returns",
     status: "In Development",
   },
   {
