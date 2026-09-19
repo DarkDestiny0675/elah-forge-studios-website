@@ -14,7 +14,7 @@ const games = [
     image: divineResurrectionCard,
     imageAlt: "Divine Resurrection game artwork",
     route: "/divine-resurrection",
-    status: "Pre-Production",
+    status: "In Development",
   },
   {
     title: "Royal Treasury",
