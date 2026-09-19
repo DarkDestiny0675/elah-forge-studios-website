@@ -27,7 +27,7 @@ const updates = [
   },
   {
     date: "In Development",
-    title: "Poly-Anna Returns",
+    title: "Polly-Anna Returns",
     description:
       "A Ludo-Sorry style board game that pits brains and roadblocks.  Block your opponents or send them home all the while in a race to get home!  It's a game for all ages and worth all the fun and laughs.",
   },
