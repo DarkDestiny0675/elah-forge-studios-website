@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import divineResurrectionCard from "../assets/divine-resurrection-card.png";
 import royalTreasuryCard from "../assets/royal-treasury-card.png";
 import nflPickEmCard from "../assets/nfl-pickem-card.png";
-import polyAnnaReturnsCard from "../assets/poly-anna-returns-card.png";
+import pollyAnnaReturnsCard from "../assets/polly-anna-returns-card.png";
 import dcCrisisCard from "../assets/dc-crisis-of-infinite-heroes-card.png";
 import "./FeaturedGames.css";
 
@@ -39,7 +39,7 @@ const games = [
     title: "Polly-Anna Returns",
     description:
       "Race home through safe zones, strategic blocks, and a modern twist on classic board-game competition.",
-    image: polyAnnaReturnsCard,
+    image: pollyAnnaReturnsCard,
     imageAlt: "Polly-Anna Returns game artwork",
     route: "/polly-anna-returns",
     status: "In Development",

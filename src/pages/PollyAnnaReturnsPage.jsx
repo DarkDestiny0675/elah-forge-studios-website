@@ -7,7 +7,7 @@ function PollyAnnaReturnsPage() {
     <main className="game-page">
       <section
         className="game-page-hero"
-        style={{ backgroundImage: `url(${polyAnnaReturnsCard})` }}
+        style={{ backgroundImage: `url(${pollyAnnaReturnsCard})` }}
       >
         <div className="game-page-overlay" />
 

@@ -3,7 +3,7 @@ import HomePage from "./components/HomePage";
 import DivineResurrectionPage from "./pages/DivineResurrectionPage";
 //import RoyalTreasuryPage from "./pages/RoyalTreasuryPage";
 import NFLPickEmPage from "./pages/NFLPickEmPage";
-import PolyAnnaReturnsPage from "./pages/PolyAnnaReturnsPage";
+import PollyAnnaReturnsPage from "./pages/PollyAnnaReturnsPage";
 import DCCrisisOfInfiniteHeroesPage from "./pages/DCCrisisOfInfiniteHeroesPage";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
         />
         {/* <Route path="/royal-treasury" element={<RoyalTreasuryPage />} /> */}
         <Route path="/nfl-pickem" element={<NFLPickEmPage />} />
-        <Route path="/poly-anna-returns" element={<PolyAnnaReturnsPage />} />
+        <Route path="/polly-anna-returns" element={<PollyAnnaReturnsPage />} />
         <Route
           path="/dc-crisis-of-infinite-heroes"
           element={<DCCrisisOfInfiniteHeroesPage />}
