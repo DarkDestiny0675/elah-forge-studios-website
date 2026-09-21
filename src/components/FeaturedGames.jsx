@@ -45,11 +45,11 @@ const games = [
     status: "In Development",
   },
   {
-    title: "DC: Crisis of Infinite Heroes",
+    title: "Echoes: Crisis of Infinite Heroes",
     description:
       "A competitive 2 to 4-player engine-building car game with a strategy-shifting comic-book event system.",
     image: dcCrisisCard,
-    imageAlt: "DC: Crisis of Infinite Heroes game artwork",
+    imageAlt: "Echoes: Crisis of Infinite Heroes game artwork",
     route: "/dc-crisis-of-infinite-heroes",
     status: "In Development",
   },
